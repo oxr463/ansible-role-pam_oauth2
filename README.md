@@ -1,4 +1,4 @@
-oxr463.pam_oauth2
+oxr463.ansible-role-pam_oauth2
 ==============================
 
 Ansible role for pam_oauth2
@@ -6,7 +6,7 @@ Ansible role for pam_oauth2
 Install it with the following command:
 
 ```bash
-$ ansible-galaxy install oxr463.pam_oauth2
+$ ansible-galaxy install oxr463.ansible-role-pam_oauth2
 ```
 
 Requirements
@@ -19,8 +19,6 @@ Role Variables
 
 Here is the list of all variables and their default values:
 
-
-
 Dependencies
 ------------
 
@@ -31,7 +29,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - {role: oxr463.pam_oauth2 }
+         - { role: oxr463.ansible-role-pam_oauth2 }
 
 License
 -------
